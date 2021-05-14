@@ -83,3 +83,6 @@ HISTTIMEFORMAT="%Y-%m-%d_%H:%M:%S [CMD]:"
 export JAVA_HOME=/usr/local/douzone2021/java
 export CLASSPATH=$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
+
+# git
+export PATH=$PATH:/usr/local/douzone2021/git/bin
