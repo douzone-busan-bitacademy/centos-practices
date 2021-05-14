@@ -1,0 +1,43 @@
+1. (Relation)DB: 개요
+2. SQL - DDL, DCL, DML 
+        (DA) (DBA) (DB Develope, CRUD)
+3. Data Design, DA, DB Scheme(entity, ERD Logical) -> table(Physical)
+   : 정규화(Normalization)
+4. DB Programming(c, c++, java(JDBC), python, JavaScript, PHP.......) 
+
+
+====================================================================
+# mysql -u root -p  (DBA 권한으로 접속)
+
+1. database 생성
+MariaDB [none]> create database webdb;
+
+2-1. user 생성
+MariaDB [none]> create user 'webdb'@'localhost' identified by 'webdb';
+
+3-1. 권한 부여
+MariaDB [none]> grant all privileges on webdb.* to 'webdb'@'localhost';
+
+4-1. 새 변경사항 적용
+MariaDB [none]> flush privileges;
+
+5-1. 테스트
+# mysql -u webdb -D webdb -p
+=====================================================================
+2-2. user 생성
+MariaDB [none]> create user 'webdb'@'192.168.80.31' identified by 'webdb';
+
+3-2. 권한 부여
+MariaDB [none]> grant all privileges on webdb.* to 'webdb'@'192.168.80.31';
+
+4-2. 새 변경사항 적용
+MariaDB [none]> flush privileges;
+
+5-2. Windows의 Workbench 에서 테스트 
+
+
+
+
+
+
+

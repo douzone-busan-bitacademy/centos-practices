@@ -86,3 +86,9 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 # git
 export PATH=$PATH:/usr/local/douzone2021/git/bin
+
+# maven
+export PATH=$PATH:/usr/local/douzone2021/maven/bin
+
+# mysql
+export PATH=$PATH:/usr/local/douzone2021/mariadb/bin
